@@ -14,11 +14,11 @@
 * transition: all 1s cubic-bezier(1.5,2.99,1,1);
 
 # transform
-    * translate()
-    * translateX 沿着X轴偏移
-    * 正右负左
-    * 如果是百分比单位是按照自身的一半
-    * 让视觉效果进行偏移, 但是实际占地还是原来的位置
+* translate()
+* translateX 沿着X轴偏移
+* 正右负左
+* 如果是百分比单位是按照自身的一半
+* 让视觉效果进行偏移, 但是实际占地还是原来的位置
 * scale()
     * 放大缩小
 * rotate

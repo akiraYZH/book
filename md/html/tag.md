@@ -38,7 +38,7 @@
                 * `type`	( `1` || `A` || `a` || `I` || `i` ) 规定在列表中使用的标记类型。
 
     * 行内元素 inline
-         <!-- <hr/> -->
+         <hr/>
         
         * 特点
             1. 标签占地面积就是文本的占地面积
@@ -69,10 +69,8 @@
 
                  * `src` 要播放的音频的 URL。
 
-            
-
     * 行内会计元素 inline-block
-        <!-- <hr/> -->
+        <hr/>
         
         * 特点
         * 常见标签
@@ -81,7 +79,6 @@
                 * `src`  表示引入图片的路径
                 * `alt`  表示链接失效时的提示
             
-
             * 按钮`<button type="button"></button>`
                 * `autofocus`	规定当页面加载时按钮应当自动地获得焦点。
                 * `disabled`	规定应该禁用该按钮。
@@ -104,19 +101,18 @@
                 * `required`	规定文本区域是必填的。
                 * `size`	(number)	规定下拉列表中可见选项的数目。
 
-
-    <!-- <br />
-    <br /> -->
+    <br />
+    <br />
 
     > 外边距 margin
     >> 边框 border
     >>> 内边距 padding
     >>>> 中心内容 content
 
-<!-- <br />
 <br />
 <br />
-<br /> -->
+<br />
+<br />
 
 * 绝对路径与相对路径
 
@@ -129,16 +125,11 @@
 
         * xxx/ 进入xxx目录
 
-<!-- <br />
-<br />
-<br />
-<br /> -->
 
 # 作业
 
 ## `1. src和href区别`
-
-
+ 
 1. `href`是`Hypertext Reference`的缩写，表示超文本引用。用来建立当前元素和文档之间的链接。常用的有：link、a。例如：
 
     `<link href="reset.css" rel=”stylesheet“/>`
@@ -189,14 +180,11 @@
     ```
     <br/>、<hr/>、<input>、<img>、<link>、<meta>
     ```
-
 <br/>
 <br/>
 <br/>
 
 ## `3. HTML4 And HTML5 标签整理`
-
-
 
 * HTML5中新增的标签
 
@@ -308,7 +296,6 @@
     <ul> 定义无序列表
     <var> 定义变量
     ```
- 
 
 * HTML5不支持的标签
 
