@@ -11,9 +11,12 @@
     * [选择器](md/css/selector.md)
     * [居中](md/css/center.md)
     * [定位position](md/css/2019-11-20定位.md)
-    * [动画](md/css/animation.md)
+    * [动画1](md/css/2019-11-22animate.md)
+    * [动画2](md/css/animation.md)
     * [居中](md/css/center.md)
     * [float](md/css/2019-11-15float.md)
     * [font和单行溢出](md/css/font_overfloat.md)
     * [标签不被选中](md/css/2019-11-23.md)
+    * [移动端布局]](md/css/responsive_layout.md)
+    * [flex](md/css/flex.md)
 
