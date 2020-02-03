@@ -19,4 +19,12 @@
     * [标签不被选中](md/css/2019-11-23.md)
     * [移动端布局]](md/css/responsive_layout.md)
     * [flex](md/css/flex.md)
+* [JS](md/js)
+    * [js简介](md/js/js.md)
+    * [if语句](md/js/if.md)
+    * [循环](md/js/loop.md)
+    * [Math](md/js/Math.md)
+* [Flappy Bird总结](md/flappyBird)
+    * [flappy bird](md/flappyBird/document.md)
+
 
