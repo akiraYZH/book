@@ -51,7 +51,7 @@
         data-chapter-title="flappy bird"
         data-filepath="md/flappyBird/document.md"
         data-basepath="../.."
-        data-revision="Mon Feb 03 2020 10:27:55 GMT+0800 (CST)"
+        data-revision="Mon Feb 03 2020 23:00:24 GMT+0800 (CST)"
         data-innerlanguage="">
     
 
@@ -559,24 +559,28 @@
     }
 }
 </code></pre><h2 id="&#x6E38;&#x620F;&#x5143;&#x7D20;&#x6846;&#x67B6;">&#x6E38;&#x620F;&#x5143;&#x7D20;&#x6846;&#x67B6;</h2>
+<ul>
+<li><p>&#x6BCF;&#x4E2A;&#x6E38;&#x620F;&#x5185;&#x7684;&#x5143;&#x7D20;&#x90FD;&#x7EE7;&#x627F;GameElement&#x7C7B;, &#x90FD;&#x6709;&#x8FD9;update&#x548C;render&#x65B9;&#x6CD5;. update&#x65B9;&#x6CD5;&#x8D1F;&#x8D23;&#x66F4;&#x65B0;x,y&#x5750;&#x6807;, &#x8BA1;&#x7B97;&#x78B0;&#x649E;&#x68C0;&#x6D4B;&#x7B49;&#x529F;&#x80FD;, render&#x8D1F;&#x8D23;&#x628A;&#x66F4;&#x65B0;&#x540E;&#x7684;&#x6570;&#x636E;&#x6E32;&#x67D3;&#x5230;&#x753B;&#x5E03;&#x4E2D;.</p>
 <pre><code>class GameElement{
-    constructor(){
-        //&#x6BCF;&#x4E2A;&#x65B0;&#x5EFA;&#x5143;&#x7D20;&#x90FD;&#x4F1A;&#x52A0;&#x8FDB;game&#x7C7B;&#x7684;gameItem&#x6570;&#x7EC4;&#x4E2D;
-        game.gameItems.push(this);
-    }
+  constructor(){
+      //&#x6BCF;&#x4E2A;&#x65B0;&#x5EFA;&#x5143;&#x7D20;&#x90FD;&#x4F1A;&#x52A0;&#x8FDB;game&#x7C7B;&#x7684;gameItem&#x6570;&#x7EC4;&#x4E2D;
+      game.gameItems.push(this);
+  }
 
-    update(){
-        //&#x901A;&#x8FC7;update&#x65B9;&#x6CD5;&#x66F4;&#x65B0;&#x53C2;&#x6570;
-    }
-    render(){
-        throw new Error(&apos;render function must be rewritten.&apos;);
-    }
+  update(){
+      //&#x901A;&#x8FC7;update&#x65B9;&#x6CD5;&#x66F4;&#x65B0;&#x53C2;&#x6570;
+  }
+  render(){
+      throw new Error(&apos;render function must be rewritten.&apos;);
+  }
 
-    getRdm(min, max){
-        return Math.floor(Math.random()*(max-min+1)+min)
-    }
+  getRdm(min, max){
+      return Math.floor(Math.random()*(max-min+1)+min)
+  }
 }
-</code></pre>
+</code></pre></li>
+</ul>
+
                     
                     </section>
                 

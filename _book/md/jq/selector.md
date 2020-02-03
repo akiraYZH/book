@@ -20,9 +20,6 @@
 `$('li:gt(1)')`
 * 获取下标比1大的
 
-## not
-* $('li:not(:first-child)').css('background','red');
-
 ## .is()
 ```
 $("ul").click(function(event) {
@@ -44,3 +41,21 @@ $("ul").click(function(event) {
 
 ## jQuery( ":contains(text)" )
 * text: 用来查找的一个文本字符串。这是区分大小写的。
+
+---
+### filter
+* `$('li').filter(':even').css('background-color', 'red');`
+### not
+* `$('li:not(:first-child)').css('background','red');`
+
+### has
+* `$('li').has('ul').css('background-color', 'red');` 如果li里包含ul就把背景设为红色
+
+### is()
+
+### 遍历
+* .map( callback(index, domElement) ) 有返回值
+* .each( function(index, Element) )
+
+### .slice( start [, end ] )
+* 开始下标不包括, 结束下标包含

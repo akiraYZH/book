@@ -37,3 +37,18 @@
 * `jq_h1.wrap('<div></div>');` 分别用包
 * `jq_h1.wrapAll('<div></div>');` 一个大容器包着
 * `jq_h1.wrapInner('<div></div>');` 包着里面
+* `unwrap()` 去掉包裹
+
+---
+### 复制clone
+* `jq_lis.eq(0).clone(true);`里面参数为true时, 可连同绑定的事件和子元素内容一并复制
+---
+### 替换
+* `jq_lis.eq(0).replaceAll('h1');`
+* `replaceWith()`
+---
+### 移除
+* `.remove([selector])` jq_lis.eq(0).remove();
+* `.empty()` 清空内容
+* `.detach([selector])` 效果和remove一样,但有个返回值,可保存被删掉的节点绑定的事件(detach和remove的区别点在于是否保留事件)
+
