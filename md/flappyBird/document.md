@@ -44,7 +44,7 @@ class Game{
 ```
 
 ## 游戏元素框架
-* 每个游戏内的元素都继承GameElement类, 都有这update和render方法.
+* 每个游戏内的元素都继承GameElement类, 都有这update和render方法. update方法负责更新x,y坐标, 计算碰撞检测等功能, render负责把更新后的数据渲染到画布中.
 ```
 class GameElement{
     constructor(){
